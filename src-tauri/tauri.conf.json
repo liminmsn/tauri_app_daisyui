@@ -15,7 +15,7 @@
         "width": 800,
         "height": 600,
         "resizable": false,
-        "shadow": false,
+        "shadow": true,
         "decorations": false,
         "transparent": true,
         "scrollBarStyle": "fluentOverlay"

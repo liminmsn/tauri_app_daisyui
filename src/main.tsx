@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./view/App";
-import ThemeProvider from "./hook/ThemeProvider";
+import App from "@/App";
+import ThemeProvider from "@/hook/ThemeProvider";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
