@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: all;
+}
+::-webkit-scrollbar {
+  appearance: none;
+  width: 0px;
+}
+
+.drag {
+  -webkit-app-region: drag;
+}
+
+.no_drag {
+  -webkit-app-region: no-drag;
+}
+
+/* :root {
+  --theme_0: #454040;
+  --theme_1: #605B51;
+  --theme_2: #D8D365;
+  color: var(--theme_0);
+} */
+
+/* .theme_0 {
+  background: var(--theme_0);
+}
+
+.theme_1 {
+  background: var(--theme_1);
+}
+
+.theme_2 {
+  background: var(--theme_2);
+} */
