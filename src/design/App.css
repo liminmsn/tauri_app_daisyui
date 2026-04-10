@@ -14,7 +14,9 @@
 .no_drag {
   -webkit-app-region: no-drag;
 }
-
+html{
+  background-color: transparent;
+}
 /* :root {
   --theme_0: #454040;
   --theme_1: #605B51;
